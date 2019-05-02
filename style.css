@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 5vw;
+}
+
+#gridcon {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#gridcon2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#gridcon3 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
