@@ -23,8 +23,17 @@ section {
 /*---------------------- FORSIDE SLUT ------------------------------------*/
 /*---------------------- MENU --------------------------------------------*/
 
-#hovedmenu {
+.hovedmenu {
   background-color: blue;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hovedmenu a {
+  text-decoration: none;
+  color: white;
+  flex-basis: 1;
+  padding: 12px;
 }
 
 /*---------------------- MENU SLUT --------------------------------------------*/
