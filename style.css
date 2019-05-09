@@ -4,22 +4,61 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #f9f9f9;
+}
+
 /*---------------------- FORSIDE ------------------------------------*/
+.splash {
+  margin-left: 0;
+}
+
+.splash p {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: -25vw;
+  color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  z-index: 3;
+}
+
 section {
-  margin: 5vw;
+  width: 100vw;
+}
+
+#one {
+  background-color: #76d2d1;
+  padding: 5vw;
 }
 
 #gridcon {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
 }
+
 #gridcon2 {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
-#gridcon3 {
-  display: grid;
-  grid-template-columns: auto auto;
+
+button {
+  border: solid #5ba5a4 3px;
+  color: #5ba5a4;
+  padding: 0.5vw;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+iframe {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 /*---------------------- FORSIDE SLUT ------------------------------------*/
@@ -37,7 +76,7 @@ section {
   flex-basis: 1;
   padding: 1.5vw;
   padding-right: 5vw;
-  margin-left: 3vw;
+  margin-left: 10vw;
 }
 
 .hovedmenu .link {
@@ -92,3 +131,10 @@ section {
 }
 
 /*---------------------- MENU SLUT --------------------------------------------*/
+
+#gridcon3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
