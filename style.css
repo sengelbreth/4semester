@@ -22,7 +22,7 @@ body {
   color: #f9f9f9;
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
-  z-index: 3;
+  z-index: 1;
 }
 
 section {
@@ -143,4 +143,16 @@ iframe {
   grid-template-columns: auto auto;
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+/* ----------------------------- Om os ----------------------------------*/
+
+#om_os section {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#om_os #icon {
+  margin-left: 0;
+  margin-right: 0;
 }
