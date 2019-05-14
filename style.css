@@ -25,16 +25,16 @@ body {
   z-index: 1;
 }
 
-section {
+#forside section {
   width: 100vw;
 }
 
-#one {
+#forside #one {
   background-color: #76d2d1;
   padding: 5vw;
 }
 
-#gridcon {
+#forside #gridcon {
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin-left: 10vw;
@@ -42,7 +42,7 @@ section {
   padding: 5vw;
 }
 
-#gridcon2 {
+#forside #gridcon2 {
   display: grid;
   grid-template-columns: auto auto;
   margin-left: 10vw;
@@ -60,11 +60,18 @@ button {
 iframe {
   margin-left: 10vw;
   margin-right: 10vw;
+  padding: 5vw;
+  width: 55vw;
+  height: 52.5vh;
 }
 
-.griditem img {
+#forside #icons .griditem img {
   width: 15vw;
   padding: 1vw;
+}
+
+#forside .griditem img {
+  width: 35vw;
 }
 
 /*---------------------- FORSIDE SLUT ------------------------------------*/
