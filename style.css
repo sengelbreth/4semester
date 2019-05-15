@@ -173,6 +173,20 @@ iframe {
   width: 15vw;
   padding: 1vw;
 }
+
+#om_os .splash {
+  margin-left: 0;
+}
+
+#om_os .splash p {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: -25vw;
+  color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  z-index: 1;
+}
 /* ------------------------------- aktiviteter ----------------------------------*/
 
 #aktiv #gridcon {
@@ -202,4 +216,23 @@ iframe {
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 5vw;
+}
+
+#aktiv .griditem img {
+  width: 30vw;
+  padding: 1vw;
+}
+
+#aktiv .griditem p {
+  font-family: "Amiko", sans-serif;
+  padding: 1vw;
+}
+
+#aktiv .griditem button {
+  margin: 1vw;
+}
+
+#aktiv #baggrund {
+  background-image: url("img/baggruond.png");
+  background-size: cover;
 }
