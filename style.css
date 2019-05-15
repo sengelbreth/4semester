@@ -161,6 +161,18 @@ iframe {
   margin-right: 0;
 }
 
+#om_os #gridcon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+}
+
+#om_os #icons img {
+  width: 15vw;
+  padding: 1vw;
+}
 /* ------------------------------- aktiviteter ----------------------------------*/
 
 #aktiv #gridcon {
