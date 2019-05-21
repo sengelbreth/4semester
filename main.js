@@ -8,6 +8,10 @@ async function HentGentagelser() {
   let footerData = await fetch("footer.html");
   let footer = await footerData.text();
   document.querySelector("footer").innerHTML = footer;
+
+  let brugerData = await fetch("mobilmenu.html");
+  let bruger = await brugerData.text();
+  document.querySelector(".hovedmenu").innerHTML = bruger;
 }
 
 /* sticky header */
