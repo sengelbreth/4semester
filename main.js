@@ -8,10 +8,6 @@ async function HentGentagelser() {
   let footerData = await fetch("footer.html");
   let footer = await footerData.text();
   document.querySelector("footer").innerHTML = footer;
-
-  let brugerData = await fetch("mobilmenu.html");
-  let bruger = await brugerData.text();
-  document.querySelector(".hovedmenu").innerHTML = bruger;
 }
 
 /* sticky header */
@@ -34,6 +30,7 @@ function stickyNavigation() {
 function myFunction(x) {
   if (x.matches) {
     // If media query matches
+    mobilmenu();
     document.body.style.backgroundColor = "yellow";
   } else {
     document.body.style.backgroundColor = "pink";
@@ -43,3 +40,9 @@ function myFunction(x) {
 var x = window.matchMedia("(max-width: 700px)");
 myFunction(x); // Call listener function at run time
 x.addListener(myFunction); // Attach listener function on state changes
+
+async function mobilmenu() {
+  let brugerData = await fetch("mobilmenu.html");
+  let bruger = await brugerData.text();
+  document.querySelector(".hovedmenu").innerHTML = bruger;
+}
