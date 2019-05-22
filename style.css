@@ -48,7 +48,7 @@ h3 {
 }
 
 #forside #one {
-  background-color: #76d2d1;
+  background-image: url("background/Background_Index_om.png");
   padding: 5vw;
 }
 
@@ -247,7 +247,7 @@ iframe {
 }
 
 #aktiv #baggrund {
-  background-image: url("img/baggruond.png");
+  background-image: url("background/Background_Aktiviteter.png");
   background-size: cover;
 }
 
@@ -305,7 +305,7 @@ iframe {
 }
 
 footer {
-  background-color: #5ba5a4;
+  background-image: url("background/footer.png");
 }
 /* ------------------------------------ footer slut -----------------------------------------------*/
 
@@ -330,10 +330,6 @@ a {
   color: #232323;
 
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: tomato;
 }
 
 #menuToggle {
