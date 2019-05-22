@@ -14,6 +14,20 @@ p {
   font-family: "Amiko", sans-serif;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Amiko", sans-serif;
+}
+
 /*---------------------- FORSIDE ------------------------------------*/
 .splash {
   margin-left: 0;
@@ -308,13 +322,7 @@ footer {
  */
 
 body {
-  margin: 0;
-  padding: 0;
-
-  /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: "Amiko", sans-serif;
 }
 
 a {

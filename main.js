@@ -31,9 +31,8 @@ function myFunction(x) {
   if (x.matches) {
     // If media query matches
     mobilmenu();
-    document.body.style.backgroundColor = "yellow";
   } else {
-    document.body.style.backgroundColor = "pink";
+    normalmenu();
   }
 }
 
@@ -45,4 +44,10 @@ async function mobilmenu() {
   let brugerData = await fetch("mobilmenu.html");
   let bruger = await brugerData.text();
   document.querySelector(".hovedmenu").innerHTML = bruger;
+}
+
+async function normalmenu() {
+  let headerData = await fetch("header.html");
+  let header = await headerData.text();
+  document.querySelector(".hovedmenu").innerHTML = header;
 }
