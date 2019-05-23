@@ -165,7 +165,7 @@ iframe {
 
 /* ----------------------------- Om os ----------------------------------*/
 
-#om_os section {
+.section {
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -201,6 +201,14 @@ iframe {
   font-size: 2vw;
   z-index: 1;
 }
+
+#om_os_b {
+  background-image: url("background/Background_Index_om.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  margin-left: 0;
+}
+
 /* ------------------------------- aktiviteter ----------------------------------*/
 
 #aktiv #gridcon {
@@ -304,9 +312,15 @@ iframe {
   width: 4vw;
 }
 
+footer p {
+  opacity: 1;
+}
+
 footer {
   background-image: url("background/footer.png");
+  opacity: 0.5;
 }
+
 /* ------------------------------------ footer slut -----------------------------------------------*/
 
 /* --------------------------------------- bruger menu --------------------------------------------*/
@@ -320,10 +334,6 @@ footer {
  * production code, beware of the browser
  * prefixes.
  */
-
-body {
-  font-family: "Amiko", sans-serif;
-}
 
 a {
   text-decoration: none;
