@@ -10,6 +10,13 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  border: solid #5ba5a4 3px;
+  color: #5ba5a4;
+  padding: 0.5vw;
+  border-radius: 10%;
+  background-color: transparent;
+}
 p {
   font-family: "Amiko", sans-serif;
 }
@@ -38,7 +45,8 @@ h3 {
   margin-top: -25vw;
   color: #f9f9f9;
   font-family: "Montserrat", sans-serif;
-  font-size: 2vw;
+  font-weight: bold;
+  font-size: 3vw;
   z-index: 1;
 }
 
