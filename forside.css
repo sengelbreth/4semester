@@ -64,16 +64,18 @@ iframe {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   #forside section {
     width: 100vw;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   #forside .gridcon {
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto;
+    background-color: palevioletred;
     margin-left: 5vw;
     margin-right: 5vw;
     padding: 5vw;
@@ -81,9 +83,6 @@ iframe {
 }
 
 @media only screen and (max-width: 450px) {
-  .griditem {
-    flex-basis: 0;
-  }
 }
 #forside #gridcon2 {
   display: grid;
