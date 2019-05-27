@@ -120,56 +120,6 @@ h3 {
 
 /*---------------------- MENU SLUT --------------------------------------------*/
 
-/* ------------------------------- aktiviteter ----------------------------------*/
-
-#aktiv #gridcon {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-}
-#aktiv #gridcon1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-}
-#aktiv #gridcon2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-}
-#aktiv #gridcon3 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-}
-
-#aktiv .griditem img {
-  width: 30vw;
-  padding: 1vw;
-}
-
-#aktiv .griditem p {
-  font-family: "Amiko", sans-serif;
-  padding: 1vw;
-}
-
-#aktiv .griditem button {
-  margin: 1vw;
-}
-
-#aktiv #baggrund {
-  background-image: url("background/Background_Aktiviteter.png");
-  background-size: cover;
-}
-
 /* ------------------------------------ kontakt ----------------------------------------*/
 
 #kontakt .gridcon {
