@@ -120,52 +120,6 @@ h3 {
 
 /*---------------------- MENU SLUT --------------------------------------------*/
 
-/* ----------------------------- Om os ----------------------------------*/
-
-.section {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-#om_os #icon {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#om_os #gridcon {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-}
-
-#om_os #icons img {
-  width: 15vw;
-  padding: 1vw;
-}
-
-#om_os .splash {
-  margin-left: 0;
-}
-
-#om_os .splash p {
-  position: absolute;
-  margin-left: 15vw;
-  margin-top: -25vw;
-  color: #f9f9f9;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2vw;
-  z-index: 1;
-}
-
-#om_os_b {
-  background-image: url("background/Background_Index_om.png");
-  width: 100vw;
-  background-repeat: no-repeat;
-  margin-left: 0;
-}
-
 /* ------------------------------- aktiviteter ----------------------------------*/
 
 #aktiv #gridcon {

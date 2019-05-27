@@ -4,7 +4,7 @@
   width: 100vw;
 }
 
-#forside #one {
+#forside .one {
   background-image: url("background/Background_Index_om.png");
   padding: 5vw;
 }
@@ -17,7 +17,7 @@
   padding: 5vw;
 }
 
-#forside #gridcon2 {
+#forside .gridcon2 {
   display: grid;
   grid-template-columns: auto auto;
   margin-left: 10vw;
@@ -32,7 +32,7 @@ iframe {
   height: 52.5vh;
 }
 
-#forside #icons .griditem img {
+#forside .icons .griditem img {
   width: 15vw;
   padding: 1vw;
 }
