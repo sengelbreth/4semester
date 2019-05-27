@@ -1,0 +1,101 @@
+/*---------------------- FORSIDE ------------------------------------*/
+
+#forside section {
+  width: 100vw;
+}
+
+#forside #one {
+  background-image: url("background/Background_Index_om.png");
+  padding: 5vw;
+}
+
+#forside .gridcon {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+}
+
+#forside #gridcon2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+button {
+  border: solid #5ba5a4 3px;
+  color: #5ba5a4;
+  padding: 0.5vw;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+iframe {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+  width: 55vw;
+  height: 52.5vh;
+}
+
+#forside #icons .griditem img {
+  width: 15vw;
+  padding: 1vw;
+}
+
+#forside .griditem img {
+  width: 35vw;
+}
+
+/*---------------------- FORSIDE SLUT ------------------------------------*/
+
+/* --------------------------------------- forside media ----------------------------------------- */
+
+@media only screen and (max-width: 450px) {
+  .splash p {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: -150vw;
+    color: #f9f9f9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vw;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #forside section {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #forside .gridcon {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 5vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .griditem {
+    flex-basis: 0;
+  }
+}
+#forside #gridcon2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+iframe {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+  width: 55vw;
+  height: 52.5vh;
+}
