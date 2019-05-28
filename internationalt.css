@@ -1,0 +1,42 @@
+/* ------------------------------- aktiviteter ----------------------------------*/
+
+.gridcon {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+}
+
+.griditem img {
+  width: 30vw;
+  padding: 1vw;
+}
+
+.griditem p {
+  font-family: "Amiko", sans-serif;
+  padding: 1vw;
+}
+
+/* ------------------------------ aktivterer media ---------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  #aktiv .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0;
+  }
+
+  #aktiv .griditem img {
+    width: 100vw;
+    padding: 0;
+  }
+
+  #aktiv .griditem h2 {
+    text-align: center;
+  }
+}
