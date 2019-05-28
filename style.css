@@ -145,6 +145,24 @@ h3 {
   width: 25vw;
 }
 
+.prisliste ul li {
+  list-style: none;
+}
+
+/* -------------------------------- undersider media ------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  .underimg {
+    width: 100vw;
+  }
+  .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+}
 /* ------------------------------------ undersider slut -----------------------------------------------*/
 /* ------------------------------------ footer -----------------------------------------------*/
 
