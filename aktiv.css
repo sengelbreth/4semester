@@ -20,6 +20,8 @@
 
 #aktiv .griditem button {
   margin: 1vw;
+  color: #f9f9f9;
+  border: solid #f9f9f9 3px;
 }
 
 #aktiv #baggrund {
@@ -33,14 +35,24 @@
 @media only screen and (max-width: 600px) {
   #aktiv .gridcon {
     display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0;
   }
 
   #aktiv .griditem img {
-    width: 30vw;
-    padding: 1vw;
+    width: 100vw;
+    padding: 0;
+  }
+
+  #aktiv .griditem h2 {
+    text-align: center;
+  }
+
+  #aktiv .griditem button {
+    margin-left: 40vw;
   }
 }
