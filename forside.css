@@ -45,48 +45,40 @@ iframe {
 
 /* --------------------------------------- forside media ----------------------------------------- */
 
-@media only screen and (max-width: 450px) {
-  .splash p {
-    position: absolute;
-    margin-left: 15vw;
-    margin-top: -150vw;
-    color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
-    font-size: 6vw;
-    z-index: 1;
-  }
-}
 @media only screen and (max-width: 600px) {
   #forside section {
     width: 100vw;
   }
-}
+  #forside .one {
+    background-image: url("background/Background_Index_om.png");
+    padding: 0;
+  }
 
-@media only screen and (max-width: 600px) {
   #forside .gridcon {
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;
     background-color: palevioletred;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #forside .gridcon2 {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+
+  #forside .griditem img {
+    width: 100vw;
+  }
+
+  iframe {
     margin-left: 5vw;
     margin-right: 5vw;
-    padding: 5vw;
+    padding: 0;
+    width: 90vw;
+    height: 20vh;
   }
-}
-
-@media only screen and (max-width: 450px) {
-}
-#forside #gridcon2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-iframe {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-  width: 55vw;
-  height: 52.5vh;
 }

@@ -50,6 +50,18 @@ h3 {
   z-index: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  .splash p {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: -150vw;
+    color: #f9f9f9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vw;
+    z-index: 1;
+  }
+}
+
 /*---------------------- MENU --------------------------------------------*/
 
 .hovedmenu {
@@ -143,15 +155,6 @@ h3 {
 
 .footer_icons {
   width: 4vw;
-}
-
-footer p {
-  opacity: 1;
-}
-
-footer {
-  background-image: url("background/footer.png");
-  opacity: 0.5;
 }
 
 /* ------------------------------------ footer slut -----------------------------------------------*/
