@@ -1,44 +1,70 @@
 /*---------------------- FORSIDE ------------------------------------*/
 
 #forside section {
-  width: 100vw;
+    width: 100vw;
 }
 
 #forside .one {
-  background-image: url("background/Background_Index_om.png");
-  padding: 5vw;
+    background-image: url("background/Background_Idea.png");
+    background-size: contain;
+
+}
+
+
+.gridcon,
+.gridcon2 {
+    line-height: 1.7;
+    font-size: 0.9em;
+
 }
 
 #forside .gridcon {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 2vw;
+}
+
+.gridcon .griditem {
+    margin: 1vw;
+    text-align: center;
 }
 
 #forside .gridcon2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 10vw;
-  margin-right: 10vw;
+    color: #282828;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.gridcon2 .griditem {
+    padding: 3vw;
+
+}
+
+.gridcon2 img {
+    width: 20%;
+    height: auto;
+    border-bottom: 15px solid #f9f9f9;
 }
 
 iframe {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 5vw;
-  width: 55vw;
-  height: 52.5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 5vw;
+    width: 55vw;
+    height: 52.5vh;
 }
 
 #forside .icons .griditem img {
-  width: 15vw;
-  padding: 1vw;
+    width: 10vw;
+    padding: 1vw;
 }
 
 #forside .griditem img {
-  width: 35vw;
+    width: 35vw;
 }
 
 /*---------------------- FORSIDE SLUT ------------------------------------*/
@@ -46,54 +72,55 @@ iframe {
 /* --------------------------------------- forside media ----------------------------------------- */
 
 @media only screen and (max-width: 600px) {
-  #forside section {
-    width: 100vw;
-  }
-  #forside .one {
-    background-image: url("background/Background_Index_om.png");
-    padding: 0;
-  }
+    #forside section {
+        width: 100vw;
+    }
+    #forside .one {
+        background-image: url("background/Background_Index_om.png");
+        padding: 0;
+        margin: 0;
+    }
 
-  #forside .gridcon {
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: auto auto auto auto;
-    background-color: palevioletred;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  #forside .gridcon .griditem {
-    width: 90vw;
-  }
+    #forside .gridcon {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: auto auto auto auto;
+        background-color: palevioletred;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #forside .gridcon .griditem {
+        width: 90vw;
+    }
 
-  #forside .gridcon .griditem h3 {
-    text-align: center;
-  }
+    #forside .gridcon .griditem h3 {
+        text-align: center;
+    }
 
-  #forside .gridcon .griditem p {
-    text-align: center;
-  }
+    #forside .gridcon .griditem p {
+        text-align: center;
+    }
 
-  #forside .gridcon .griditem img {
-    margin-left: 35vw;
-  }
+    #forside .gridcon .griditem img {
+        margin-left: 35vw;
+    }
 
-  #forside .gridcon2 {
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: auto auto;
-    justify-content: center;
-  }
+    #forside .gridcon2 {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: auto auto;
+        justify-content: center;
+    }
 
-  #forside .griditem img {
-    width: 100vw;
-  }
+    #forside .griditem img {
+        width: 100vw;
+    }
 
-  iframe {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 0;
-    width: 90vw;
-    height: 20vh;
-  }
+    iframe {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 0;
+        width: 90vw;
+        height: 20vh;
+    }
 }
