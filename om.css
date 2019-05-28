@@ -30,6 +30,48 @@
 #om_os_b {
   background-image: url("background/Background_Index_om.png");
   width: 100vw;
-  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: 0;
+  position: relative;
+  margin-top: -1vw;
+}
+
+/* -------------------------- om os media ----------------------------*/
+@media only screen and (max-width: 600px) {
+  #om_os .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 5vw;
+    padding: 0;
+  }
+
+  #om_os #icons img {
+    width: 25vw;
+    padding: 5vw;
+    margin-left: 37vw;
+  }
+
+  #om_os .griditem p {
+    text-align: center;
+    padding: 1vw;
+  }
+
+  #om_os .griditem h1 {
+    text-align: center;
+  }
+
+  #om_os .griditem h3 {
+    text-align: center;
+  }
+
+  #om_os .griditem button {
+    margin-left: 37vw;
+  }
+  .section {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
