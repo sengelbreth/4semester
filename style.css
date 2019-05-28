@@ -148,6 +148,14 @@ h3 {
 /* ------------------------------------ undersider slut -----------------------------------------------*/
 /* ------------------------------------ footer -----------------------------------------------*/
 
+.gridcon_footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+}
+
 .gridcon_icons {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -157,6 +165,19 @@ h3 {
   width: 4vw;
 }
 
+@media only screen and (max-width: 600px) {
+  .gridcon_footer {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+    margin-left: 0vw;
+
+    padding: 5vw;
+  }
+  .footer_icons {
+    width: 7vw;
+  }
+}
 /* ------------------------------------ footer slut -----------------------------------------------*/
 
 /* --------------------------------------- bruger menu --------------------------------------------*/
