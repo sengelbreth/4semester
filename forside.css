@@ -59,8 +59,23 @@ iframe {
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;
     background-color: palevioletred;
-    justify-items: center;
-    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #forside .gridcon .griditem {
+    width: 90vw;
+  }
+
+  #forside .gridcon .griditem h3 {
+    text-align: center;
+  }
+
+  #forside .gridcon .griditem p {
+    text-align: center;
+  }
+
+  #forside .gridcon .griditem img {
+    margin-left: 35vw;
   }
 
   #forside .gridcon2 {
