@@ -1,84 +1,101 @@
 /* ------------------------------------ kontakt ----------------------------------------*/
 
 #kontakt .gridcon {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 2vw;
-    display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 2vw;
 }
 
 .griditem {
-    margin: 20px;
+  margin: 20px;
 }
 
 .griditem img {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 #kontakt p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 #kontakt h1 {
-    margin-left: 10vw;
-    margin-right: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
-
-#kontakt .splash p {
-    position: absolute;
-    margin-left: 15vw;
-    margin-top: -25vw;
-    color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
-    z-index: 1;
-}
-
 
 #addresse {
-    background-color: #b7e5e5;
-    color: #f9f9f9;
-    padding: 10vw;
-    text-align: center;
+  background-color: #b7e5e5;
+  color: #f9f9f9;
+  padding: 10vw;
+  text-align: center;
+  position: relative;
+  margin-top: -1vw;
 }
 
 #team {
-    margin-top: 5vw;
-    text-align: center;
+  margin-top: 5vw;
+  text-align: center;
 }
 
 /* --- kontaktformel ***/
 
 #kontakt form {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5vw 15vw 10vw 15vw;
-    font-family: "Amiko", sans-serif;
-
+  display: grid;
+  grid-template-columns: auto;
+  margin: 5vw 15vw 10vw 15vw;
+  font-family: "Amiko", sans-serif;
 }
 
-input[type=text],
-select[id=country],
-textarea[id=subject] {
-    border: 2px solid #5ba5a4;
-    border-radius: 4px;
-    padding: 1vw;
+input[type="text"],
+select[id="country"],
+textarea[id="subject"] {
+  border: 2px solid #5ba5a4;
+  border-radius: 4px;
+  padding: 1vw;
 }
 
 label,
 input {
-    margin: 1vw 0 1vw 0;
+  margin: 1vw 0 1vw 0;
 }
 
-input[type=submit] {
-    border: 3px solid #5ba5a4;
-    color: #f9f9f9;
-    padding: 1vw;
-    border-radius: 4px;
-    background-color: #5ba5a4;
+input[type="submit"] {
+  border: 3px solid #5ba5a4;
+  color: #f9f9f9;
+  padding: 1vw;
+  border-radius: 4px;
+  background-color: #5ba5a4;
 }
 
-/* ------------------------------------ kontakt slut ----------------------------------------*/
+/* ------------------------------------ kontakt media ----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  #kontakt .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2vw;
+  }
+
+  .griditem {
+    margin: 20px;
+  }
+
+  .griditem img {
+    padding: 20px;
+    margin-left: 25vw;
+  }
+
+  .griditem p {
+    text-align: center;
+    margin-left: 0;
+  }
+  .griditem h3 {
+    text-align: center;
+  }
+}
