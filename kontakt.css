@@ -1,0 +1,36 @@
+/* ------------------------------------ kontakt ----------------------------------------*/
+
+#kontakt .gridcon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+}
+#kontakt p {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#kontakt h1 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#kontakt .splash p {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: -25vw;
+  color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  z-index: 1;
+}
+
+#kontakt form {
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+/* ------------------------------------ kontakt slut ----------------------------------------*/
