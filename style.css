@@ -1,140 +1,140 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Amiko:400,600,700");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f9f9f9;
-    overflow-x: hidden;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
 }
 
 button {
-    border: solid #5ba5a4 2px;
-    color: #5ba5a4;
-    padding: 0.5vw;
-    border-radius: 4px;
-    background-color: transparent;
+  border: solid #5ba5a4 2px;
+  color: #5ba5a4;
+  padding: 0.5vw;
+  border-radius: 4px;
+  background-color: transparent;
 }
 
 p {
-    font-family: "Amiko", sans-serif;
+  font-family: "Amiko", sans-serif;
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h3 {
-    font-family: "Amiko", sans-serif;
-    line-height: 1.5;
+  font-family: "Amiko", sans-serif;
+  line-height: 1.5;
 }
 
 .splash {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .splash p {
-    position: absolute;
-    margin-left: 15vw;
-    margin-top: -25vw;
-    color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 3vw;
-    z-index: 1;
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: -25vw;
+  color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {
-    .splash p {
-        position: absolute;
-        margin-left: 15vw;
-        margin-top: -50vw;
-        color: #f9f9f9;
-        font-family: "Montserrat", sans-serif;
-        font-size: 6vw;
-        z-index: 1;
-    }
+  .splash p {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: -50vw;
+    color: #f9f9f9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vw;
+    z-index: 1;
+  }
 }
 
 /*---------------------- MENU --------------------------------------------*/
 
 .hovedmenu {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #f9f9f9;
-    width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f9f9f9;
+  width: 100vw;
 }
 
 .hovedmenu img {
-    width: 10vw;
-    flex-basis: 1;
-    padding: 1.5vw;
-    padding-right: 5vw;
-    margin-left: 10vw;
+  width: 10vw;
+  flex-basis: 1;
+  padding: 1.5vw;
+  padding-right: 5vw;
+  margin-left: 10vw;
 }
 
 .hovedmenu .link {
-    text-decoration: none;
-    color: #76d2d1;
-    flex-basis: 1;
-    padding: 2.6vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
+  text-decoration: none;
+  color: #76d2d1;
+  flex-basis: 1;
+  padding: 2.6vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
 }
 
 .dropd {
-    position: relative;
-    display: inline-block;
-    padding-top: 2.6vw;
+  position: relative;
+  display: inline-block;
+  padding-top: 2.6vw;
 }
 
 .dropdownc {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
 }
 
 .dropdownc a {
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    color: #76d2d1;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
-    padding: 1vw;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+  color: #76d2d1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 1vw;
 }
 
 .dropdownc a:hover {
-    background-color: #5ba5a4;
+  background-color: #5ba5a4;
 }
 
 .dropd:hover .dropdownc {
-    display: block;
+  display: block;
 }
 
 .hovedmenu .link:hover {
-    background-color: #5ba5a4;
+  background-color: #5ba5a4;
 }
 
 /* --------------------------------- sticky header -----------------------*/
 
 .fixed-nav {
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 /*---------------------- MENU SLUT --------------------------------------------*/
@@ -142,35 +142,35 @@ h3 {
 /* ------------------------------------ undersider -----------------------------------------------*/
 
 .gridcon {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
 }
 
 .underimg {
-    width: 25vw;
+  width: 25vw;
 }
 
 .prisliste ul li {
-    list-style: none;
+  list-style: none;
 }
 
 /* -------------------------------- undersider media ------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-    .underimg {
-        width: 100vw;
-    }
-    .gridcon {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto auto;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-    }
+  .underimg {
+    width: 100vw;
+  }
+  .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 }
 
 /* ------------------------------------ undersider slut -----------------------------------------------*/
@@ -178,34 +178,34 @@ h3 {
 /* ------------------------------------ footer -----------------------------------------------*/
 
 .gridcon_footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
 }
 
 .gridcon_icons {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .footer_icons {
-    width: 4vw;
+  width: 4vw;
 }
 
 @media only screen and (max-width: 600px) {
-    .gridcon_footer {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto;
-        margin-left: 0vw;
+  .gridcon_footer {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+    margin-left: 0vw;
 
-        padding: 5vw;
-    }
-    .footer_icons {
-        width: 7vw;
-    }
+    padding: 5vw;
+  }
+  .footer_icons {
+    width: 7vw;
+  }
 }
 
 /* ------------------------------------ footer slut -----------------------------------------------*/
@@ -224,39 +224,39 @@ h3 {
  */
 
 a {
-    text-decoration: none;
-    color: #232323;
+  text-decoration: none;
+  color: #232323;
 
-    transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 #menuToggle {
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
 
-    z-index: 1;
+  z-index: 1;
 
-    -webkit-user-select: none;
-    user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
-    -webkit-touch-callout: none;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
 }
 
 /*
@@ -264,29 +264,29 @@ a {
   */
 
 #menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
 
-    background: #cdcdcd;
-    border-radius: 3px;
+  background: #cdcdcd;
+  border-radius: 3px;
 
-    z-index: 1;
+  z-index: 1;
 
-    transform-origin: 4px 0px;
+  transform-origin: 4px 0px;
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 #menuToggle span:first-child {
-    transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 #menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
 }
 
 /* 
@@ -295,9 +295,9 @@ a {
   */
 
 #menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
 }
 
 /*
@@ -305,8 +305,8 @@ a {
   */
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
@@ -314,7 +314,7 @@ a {
   */
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
@@ -323,31 +323,26 @@ a {
   */
 
 #menu {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
 
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-
-#menu li {
-    padding: 10px 0;
-    font-size: 22px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 /*
   * And let's slide it in from the left
   */
 
-#menuToggle input:checked ~ ul {
-    transform: none;
+#menuToggle input:checked ~ div {
+  transform: none;
 }
