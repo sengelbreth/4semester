@@ -51,7 +51,6 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 3vw;
-  z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,7 +61,6 @@ h3 {
     color: #f9f9f9;
     font-family: "Montserrat", sans-serif;
     font-size: 6vw;
-    z-index: 1;
   }
 }
 
@@ -73,6 +71,7 @@ h3 {
   flex-wrap: nowrap;
   background-color: #f9f9f9;
   width: 100vw;
+  z-index: 1;
 }
 
 .hovedmenu img {
@@ -103,7 +102,7 @@ h3 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdownc a {
@@ -211,7 +210,6 @@ h3 {
 /* ------------------------------------ footer slut -----------------------------------------------*/
 
 /* --------------------------------------- bruger menu --------------------------------------------*/
-
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -223,11 +221,34 @@ h3 {
  * prefixes.
  */
 
-a {
+#menu a {
   text-decoration: none;
-  color: #232323;
-
+  color: #76d2d1;
+  display: block;
+  text-align: center;
+  font-size: 4vw;
   transition: color 0.3s ease;
+}
+
+#menu .link {
+  margin-left: 10px;
+}
+
+#menu .dropd {
+  position: relative;
+  display: inline-block;
+  padding-top: 2.6vw;
+}
+
+#menu .dropdownc {
+  background-color: #f9f9f9;
+  z-index: 2;
+}
+
+#menu img {
+  width: 40vw;
+
+  padding: 1.5vw;
 }
 
 #menuToggle {
@@ -244,8 +265,8 @@ a {
 
 #menuToggle input {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 100vw;
+
   position: absolute;
   top: -7px;
   left: -5px;
@@ -260,8 +281,8 @@ a {
 }
 
 /*
-  * Just a quick hamburger
-  */
+      * Just a quick hamburger
+      */
 
 #menuToggle span {
   display: block;
@@ -270,7 +291,7 @@ a {
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: #f9f9f9;
   border-radius: 3px;
 
   z-index: 1;
@@ -290,19 +311,19 @@ a {
 }
 
 /* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
+      * Transform all the slices of hamburger
+      * into a crossmark.
+      */
 
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #f9f9f9;
 }
 
 /*
-  * But let's hide the middle one.
-  */
+      * But let's hide the middle one.
+      */
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
@@ -310,26 +331,26 @@ a {
 }
 
 /*
-  * Ohyeah and the last one should go the other direction
-  */
+      * Ohyeah and the last one should go the other direction
+      */
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
-  * Make this absolute positioned
-  * at the top left of the screen
-  */
+      * Make this absolute positioned
+      * at the top left of the screen
+      */
 
 #menu {
   position: absolute;
-  width: 300px;
+  width: 100vw;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: #f9f9f9;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -340,8 +361,8 @@ a {
 }
 
 /*
-  * And let's slide it in from the left
-  */
+      * And let's slide it in from the left
+      */
 
 #menuToggle input:checked ~ div {
   transform: none;
