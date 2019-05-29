@@ -1,4 +1,4 @@
-/* ------------------------------- aktiviteter ----------------------------------*/
+/* ------------------------------- internatinalt ----------------------------------*/
 
 .gridcon {
   display: grid;
@@ -9,7 +9,7 @@
 }
 
 .griditem img {
-  width: 30vw;
+  width: 15vw;
   padding: 1vw;
 }
 
@@ -18,7 +18,7 @@
   padding: 1vw;
 }
 
-/* ------------------------------ aktivterer media ---------------------------------------*/
+/* ------------------------------ internationalt media ---------------------------------------*/
 
 @media only screen and (max-width: 600px) {
   #aktiv .gridcon {
