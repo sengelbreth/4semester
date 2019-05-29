@@ -1,8 +1,8 @@
 /* ----------------------------- Om os ----------------------------------*/
 
 .section {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 #om_os #icon {
@@ -12,19 +12,38 @@
 
 #om_os .gridcon {
     display: flex;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 #om_os #icons img {
     width: 15vw;
     padding: 1vw;
+
 }
 
 #om_os .splash {
     margin-left: 0;
 }
+
+#icons .griditem {
+    margin: 2vw;
+}
+
+.griditem {
+    flex-grow: 1;
+    line-height: 1.7;
+
+    text-align: center;
+    width: 33%;
+    color: #282828;
+}
+
+.griditem p {
+    text-align: left;
+    font-size: 0.8em;
+}
+
 
 #om_os_b {
     background-image: url("background/Background_Index_om.png");
