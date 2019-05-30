@@ -9,11 +9,15 @@
 }
 
 .griditem {
+    text-align: center;
     padding: 2vw;
 }
 
+.griditem p {
+    text-align: left;
+}
+
 .griditem img {
-    text-align: center;
     padding: 20px;
 }
 
@@ -73,30 +77,40 @@ input[type="submit"] {
 
 /* ------------------------------------ kontakt media ----------------------------------------*/
 
+@media only screen and (max-width:1000px) {
+    .gridcon {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
 @media only screen and (max-width: 600px) {
     #kontakt .gridcon {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-left: 0;
         margin-right: 0;
-        padding: 2vw;
+        padding: 0;
+    }
+
+    .gridcon {
+        margin: 2vw;
     }
 
     .griditem {
-        margin: 20px;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
-    .griditem img {
-        padding: 20px;
-        margin-left: 25vw;
-    }
+    .griditem img {}
 
     .griditem p {
-        text-align: center;
-        margin-left: 0;
+        width: 100%;
+
     }
-    .griditem h3 {
-        text-align: center;
-    }
-}
