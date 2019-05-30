@@ -218,9 +218,9 @@ li {
 .gridcon_footer {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 5vw;
+    padding: 2vw 5vw 2vw 5vw;
+    color: #f9f9f9;
+    background-color: #282828;
 }
 
 .gridcon_icons {
