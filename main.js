@@ -1,10 +1,6 @@
 document.addEventListener("DOMContentLoaded", HentGentagelser);
 
 async function HentGentagelser() {
-  let headerData = await fetch("header.html");
-  let header = await headerData.text();
-  document.querySelector(".hovedmenu").innerHTML = header;
-
   let footerData = await fetch("footer.html");
   let footer = await footerData.text();
   document.querySelector("footer").innerHTML = footer;
@@ -35,8 +31,7 @@ function myFunction(x) {
     normalmenu();
   }
 }
-
-var x = window.matchMedia("(max-width: 700px)");
+let x = window.matchMedia("(max-width: 700px)");
 myFunction(x); // Call listener function at run time
 x.addListener(myFunction); // Attach listener function on state changes
 
@@ -51,3 +46,16 @@ async function normalmenu() {
   let header = await headerData.text();
   document.querySelector(".hovedmenu").innerHTML = header;
 }
+
+/* -------------------- knapper forsiden ----------------------- */
+function displayKnapper(y) {
+  if (y.matches) {
+    document.getElementsByClassName(".smallscreen").classList.remove("hide");
+  } else {
+    document.getElementsByClassName(".smallscreen").classList.add("hide");
+  }
+}
+
+let y = window.matchMedia("(max-width: 700px)");
+displayKnapper(y); // Call listener function at run time
+y.addListener(displayKnapper); // Attach listener function on state changes
