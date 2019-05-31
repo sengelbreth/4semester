@@ -54,13 +54,26 @@ async function normalmenu() {
 /* -------------------- knapper forsiden ----------------------- */
 let y = window.matchMedia("(max-width: 700px)");
 y.addListener(displayKnapper); // Attach listener function on state changes
-const knap = document.querySelectorAll(".smallscreen").classList;
 function displayKnapper(y) {
   if (y.matches) {
-    knap.remove("hide");
+    document.querySelector("#smallscreen").classList.remove("hide");
+    document.querySelector("#smallscreen1").classList.remove("hide");
+    document.querySelector("#smallscreen2").classList.remove("hide");
+    document.querySelector("#smallscreen3").classList.remove("hide");
+    document.querySelector("#bigscreen").classList.add("hide");
+    document.querySelector("#bigscreen1").classList.add("hide");
+    document.querySelector("#bigscreen2").classList.add("hide");
+    document.querySelector("#bigscreen3").classList.add("hide");
     console.log("dont hide");
   } else {
-    document.querySelectorAll(".smallscreen").classList.add("hide");
+    document.querySelector("#smallscreen").classList.add("hide");
+    document.querySelector("#smallscreen1").classList.add("hide");
+    document.querySelector("#smallscreen2").classList.add("hide");
+    document.querySelector("#smallscreen3").classList.add("hide");
+    document.querySelector("#bigscreen").classList.remove("hide");
+    document.querySelector("#bigscreen1").classList.remove("hide");
+    document.querySelector("#bigscreen2").classList.remove("hide");
+    document.querySelector("#bigscreen3").classList.remove("hide");
     console.log("hide!!!!!!!");
   }
 }
