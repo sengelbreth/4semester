@@ -1,16 +1,23 @@
 /* ------------------------------- internatoinalt ----------------------------------*/
 
-.gridcon {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
+#int .gridcon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding: 5vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.griditem img {
-    width: 50vw;
+#int .griditem img {
+    width: 30vw;
     padding: 1vw;
+}
+
+#int .gridcon .griditem {
+    width: 50%;
+    flex-grow: 1;
 }
 
 .griditem p {
@@ -25,22 +32,25 @@
 /* ------------------------------ internationalt media ---------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-    #aktiv .gridcon {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto;
-
+    #int .gridcon {
+        display: block;
         margin-left: 0vw;
         margin-right: 0vw;
         padding: 0;
     }
 
-    #aktiv .griditem img {
+    #int .griditem p,
+    #int .griditem h2 {
+        width: 100vw;
+        padding: 1vw;
+    }
+    #int .griditem img {
         width: 100vw;
         padding: 0;
     }
 
-    #aktiv .griditem h2 {
+    #int .griditem h2 {
+
         text-align: center;
     }
 }
