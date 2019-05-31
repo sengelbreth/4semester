@@ -4,6 +4,12 @@ async function HentGentagelser() {
   let footerData = await fetch("footer.html");
   let footer = await footerData.text();
   document.querySelector("footer").innerHTML = footer;
+  init();
+}
+
+function init() {
+  displayMenuer(x); // Call listener function at run time
+  displayKnapper(y);
 }
 
 /* sticky header */
@@ -22,8 +28,9 @@ function stickyNavigation() {
 }
 
 /* bruger menu */
-
-function myFunction(x) {
+let x = window.matchMedia("(max-width: 700px)");
+x.addListener(displayMenuer); // Attach listener function on state changes
+function displayMenuer(x) {
   if (x.matches) {
     // If media query matches
     mobilmenu();
@@ -31,9 +38,6 @@ function myFunction(x) {
     normalmenu();
   }
 }
-let x = window.matchMedia("(max-width: 700px)");
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction); // Attach listener function on state changes
 
 async function mobilmenu() {
   let brugerData = await fetch("mobilmenu.html");
@@ -48,14 +52,15 @@ async function normalmenu() {
 }
 
 /* -------------------- knapper forsiden ----------------------- */
+let y = window.matchMedia("(max-width: 700px)");
+y.addListener(displayKnapper); // Attach listener function on state changes
+const knap = document.querySelectorAll(".smallscreen").classList;
 function displayKnapper(y) {
   if (y.matches) {
-    document.getElementsByClassName(".smallscreen").classList.remove("hide");
+    knap.remove("hide");
+    console.log("dont hide");
   } else {
-    document.getElementsByClassName(".smallscreen").classList.add("hide");
+    document.querySelectorAll(".smallscreen").classList.add("hide");
+    console.log("hide!!!!!!!");
   }
 }
-
-let y = window.matchMedia("(max-width: 700px)");
-displayKnapper(y); // Call listener function at run time
-y.addListener(displayKnapper); // Attach listener function on state changes
