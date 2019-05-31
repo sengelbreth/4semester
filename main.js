@@ -64,7 +64,6 @@ function displayKnapper(y) {
     document.querySelector("#bigscreen1").classList.add("hide");
     document.querySelector("#bigscreen2").classList.add("hide");
     document.querySelector("#bigscreen3").classList.add("hide");
-    console.log("dont hide");
   } else {
     document.querySelector("#smallscreen").classList.add("hide");
     document.querySelector("#smallscreen1").classList.add("hide");
@@ -74,6 +73,5 @@ function displayKnapper(y) {
     document.querySelector("#bigscreen1").classList.remove("hide");
     document.querySelector("#bigscreen2").classList.remove("hide");
     document.querySelector("#bigscreen3").classList.remove("hide");
-    console.log("hide!!!!!!!");
   }
 }
