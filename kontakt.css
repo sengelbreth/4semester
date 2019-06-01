@@ -54,7 +54,8 @@
 #kontakt form {
     display: grid;
     grid-template-columns: auto;
-    margin: 5vw 15vw 10vw 15vw;
+    margin: 5vw 15vw 0vw 15vw;
+    padding-bottom: 10vw;
     font-family: "Amiko", sans-serif;
 }
 
@@ -77,6 +78,13 @@ input[type="submit"] {
     padding: 1vw;
     border-radius: 4px;
     background-color: #5ba5a4;
+}
+
+#form {
+    background-image: url(background/Leaves_kontaktArtboard-1.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 /* ------------------------------------ kontakt media ----------------------------------------*/
