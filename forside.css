@@ -4,11 +4,7 @@
     width: 100vw;
 }
 
-#forside .one {
-    background-image: url("background/Background_Idea.png");
-    background-size: contain;
 
-}
 
 
 .gridcon,
@@ -33,11 +29,15 @@
 }
 
 #forside .gridcon2 {
-    color: #282828;
+    background-color: #76d2d1;
+    color: #f9f9f9;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    border-radius: 20px;
+    padding: 2vw;
 }
 
 .gridcon2 .griditem {
@@ -45,8 +45,8 @@
 
 }
 
-.gridcon2 img {
-    width: 100%;
+#forside .gridcon2 img {
+    width: 80%;
     height: auto;
 }
 
@@ -139,6 +139,7 @@ iframe {
         flex-wrap: wrap;
         margin: 0;
         flex-direction: column-reverse;
+        border-radius: 0;
     }
 
 

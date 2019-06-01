@@ -64,12 +64,12 @@ h3 {
 
 .splash p {
     position: absolute;
-    margin-left: 15vw;
-    margin-top: -20vw;
+    margin-left: 10vw;
+    margin-top: -15vw;
     color: #f9f9f9;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -172,7 +172,7 @@ h3 {
     grid-template-columns: auto auto auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    padding: 5vw;
+    padding: 2vw 5vw 5vw 5vw;
 }
 
 .underimg {
