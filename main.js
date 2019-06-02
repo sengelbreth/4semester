@@ -13,11 +13,9 @@ function init() {
 }
 
 /* sticky header */
-
+window.addEventListener("scroll", stickyNavigation);
 const nav = document.querySelector(".hovedmenu");
 const navTop = nav.offsetTop;
-
-window.addEventListener("scroll", stickyNavigation);
 
 function stickyNavigation() {
   if (window.scrollY >= navTop) {

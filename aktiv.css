@@ -1,138 +1,134 @@
 /* ------------------------------- aktiviteter ----------------------------------*/
 
 #aktiv .gridcon {
-    display: flex;
-    margin: 2vw 15vw 2vw 15vw;
-    padding: 2vw;
-    justify-content: center;
-    background-color: #76d2d1;
-    color: #f9f9f9;
-    border-radius: 20px;
-
+  display: flex;
+  margin: 2vw 15vw 2vw 15vw;
+  padding: 2vw;
+  justify-content: center;
+  background-color: #76d2d1;
+  color: #f9f9f9;
+  border-radius: 20px;
 }
 
 #aktiv .griditem {
-    width: 100%;
-    height: auto;
-    padding: 1vw 2vw 2vw 2vw;
-    align-self: top;
-
-
+  width: 100%;
+  height: auto;
+  padding: 1vw 2vw 2vw 2vw;
+  align-self: top;
 }
 
 #aktiv .griditem img {
-    width: 100%;
-    padding: 1vw;
-    text-align: center;
+  width: 100%;
+  padding: 1vw;
+  text-align: center;
 }
 
 #aktiv .griditem p {
-    font-family: "Amiko", sans-serif;
-    padding: 1vw;
-    line-height: 1.7;
-    font-size: 0.9em;
+  font-family: "Amiko", sans-serif;
+  padding: 1vw;
+  line-height: 1.7;
+  font-size: 0.9em;
 }
 
 #aktiv .griditem h2 {
-    padding: 1vw;
+  padding: 1vw;
 }
 
 .buttonaktiv {
-    margin: 1vw;
-    color: #f9f9f9;
-    border: solid #f9f9f9 3px;
-    font-family: "Montserrat", sans-serif;
-    padding: 0.5vw;
-    border-radius: 4px;
-    background-color: transparent;
-    text-decoration: none;
+  margin: 1vw;
+  color: #f9f9f9;
+  border: solid #f9f9f9 3px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5vw;
+  border-radius: 4px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 #aktiv #baggrund {
-    border-top: 4px solid #5ba5a4;
-    position: absolute;
-    top: -0.24vw;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    background-image: url("background/Leaves_omArtboard-1.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    padding-top: 5vw;
+  border-top: 4px solid #5ba5a4;
+  position: absolute;
+  top: -0.24vw;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-image: url("background/Leaves_omArtboard-1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 5vw;
 }
 
 #baggrund section {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .background_bund {
-    position: absolute;
-    background-position: bottom;
-    width: 100vw;
-    height: 100%;
-    background-image: url(background/Untitled-1Artboard-1.png);
-    background-repeat: no-repeat;
-    z-index: -1;
+  position: absolute;
+  background-position: bottom;
+  width: 100vw;
+  height: 100%;
+  background-image: url(background/Untitled-1Artboard-1.png);
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 /* ------------------------------ aktivterer media ---------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-    #aktiv #baggrund {
-        margin: 0;
-        margin-top: -2vw;
-        background-image: none;
-        padding: 0;
-        border-bottom: none;
+  #aktiv #baggrund {
+    margin: 0;
+    margin-top: -2vw;
+    background-image: none;
+    padding: 0;
+    border-bottom: none;
+  }
 
+  #aktiv .gridcon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
 
-    }
+  .fritidsklub .gridcon,
+  .sommercamps .gridcon {
+    flex-wrap: wrap-reverse;
+  }
 
-    #aktiv .gridcon {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-radius: 0;
+  .international .gridcon,
+  .undervisning .gridcon {
+    flex-wrap: wrap;
+  }
+  #aktiv .gridcon p {
+    margin: 2% 10% 10% 10%;
+    width: 80%;
+    text-align: center;
+  }
+  #aktiv .griditem {
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0 0 4vw 0;
+    border-radius: 0;
+  }
 
-    }
+  #aktiv .griditem img {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
 
-    .fritidsklub .gridcon,
-    .sommercamps .gridcon {
-        flex-wrap: wrap-reverse;
-    }
+  #aktiv .griditem h2 {
+    text-align: center;
+  }
+  .buttonaktiv {
+    margin-left: 40vw;
+  }
 
-    .international .gridcon,
-    .undervisning .gridcon {
-        flex-wrap: wrap;
-    }
-    #aktiv .gridcon p {
-        margin: 2% 10% 10% 10%;
-        width: 80%;
-        text-align: center;
-    }
-    #aktiv .griditem {
-        flex-basis: 100%;
-        padding: 0;
-        margin: 0 0 4vw 0;
-        border-radius: 0;
-    }
-
-    #aktiv .griditem img {
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-    }
-
-    #aktiv .griditem h2 {
-        text-align: center;
-    }
-
-
-    .buttonaktiv a {
-        width: 100%;
-        text-align: center;
-    }
+  .buttonaktiv a {
+    width: 100%;
+    text-align: center;
+  }
 }
