@@ -36,9 +36,10 @@
 }
 
 #addresse {
-    background-color: #b7e5e5;
+    font-family: "Amiko", sans-serif;
+    background-color: #99cccc;
     color: #f9f9f9;
-    padding: 10vw;
+    padding: 5vw;
     text-align: center;
     position: relative;
     margin-top: -1vw;
@@ -78,6 +79,12 @@ input[type="submit"] {
     padding: 1vw;
     border-radius: 4px;
     background-color: #5ba5a4;
+}
+
+input[type="submit"]:hover {
+    background-color: #b7e5e5;
+    border: 3px solid #b7e5e5;
+    transition: 0.05s linear;
 }
 
 #form {
