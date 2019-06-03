@@ -302,11 +302,16 @@ li {
     padding: 2vw 5vw 2vw 5vw;
     color: #f9f9f9;
     background-color: #282828;
+   
+}
+.girditem {
+    margin-left: 7vw;
 }
 
 .gridcon_icons {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 7vw;
 }
 
 .footer_icons {
