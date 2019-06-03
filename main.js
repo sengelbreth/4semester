@@ -21,7 +21,7 @@ function stickyNavigation() {
 }
 
 /* bruger menu */
-let x = window.matchMedia("(max-width: 600px)");
+let x = window.matchMedia("(max-width: 1000px)");
 x.addListener(displayMenuer); // Attach listener function on state changes
 function displayMenuer(x) {
   if (x.matches) {
