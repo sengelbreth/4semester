@@ -1,135 +1,170 @@
 /* ------------------------------------ kontakt ----------------------------------------*/
 
 #kontakt .gridcon {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 2vw;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 2vw;
 }
 
 .griditem {
-    text-align: center;
-    padding: 2vw;
+  text-align: center;
+  padding: 2vw;
 }
 
 .griditem p {
-    text-align: left;
+  text-align: left;
 }
 
 .griditem img {
-    padding: 20px;
+  padding: 20px;
 }
 
 #kontakt p {
-    line-height: 1.5;
-    font-size: 0.9em;
+  line-height: 1.5;
+  font-size: 0.9em;
 }
 
 #kontakt .splash {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 #kontakt h1 {
-    margin-left: 10vw;
-    margin-right: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #addresse {
-    font-family: "Amiko", sans-serif;
-    background-color: #99cccc;
-    color: #f9f9f9;
-    padding: 5vw;
-    text-align: center;
-    position: relative;
-    margin-top: -1vw;
+  font-family: "Amiko", sans-serif;
+  background-color: #99cccc;
+  color: #f9f9f9;
+  padding: 5vw;
+  text-align: center;
+  position: relative;
+  margin-top: -1vw;
 }
 
 #team {
-    margin-top: 5vw;
-    text-align: center;
+  margin-top: 5vw;
+  text-align: center;
 }
 
 /* --- kontaktformel ***/
 
 #kontakt form {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5vw 15vw 0vw 15vw;
-    padding-bottom: 10vw;
-    font-family: "Amiko", sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 5vw 15vw 0vw 15vw;
+  padding-bottom: 10vw;
+  font-family: "Amiko", sans-serif;
 }
 
 input[type="text"],
 select[id="country"],
 textarea[id="subject"] {
-    border: 2px solid #5ba5a4;
-    border-radius: 4px;
-    padding: 1vw;
+  border: 2px solid #5ba5a4;
+  border-radius: 4px;
+  padding: 1vw;
 }
 
 label,
 input {
-    margin: 1vw 0 1vw 0;
+  margin: 1vw 0 1vw 0;
 }
 
-input[type="submit"] {
-    border: 3px solid #5ba5a4;
-    color: #f9f9f9;
-    padding: 1vw;
-    border-radius: 4px;
-    background-color: #5ba5a4;
+#submitbtn {
+  border: 3px solid #5ba5a4;
+  color: #f9f9f9;
+  padding: 1vw;
+  border-radius: 4px;
+  background-color: #5ba5a4;
+  text-align: center;
 }
 
-input[type="submit"]:hover {
-    background-color: #b7e5e5;
-    border: 3px solid #b7e5e5;
-    transition: 0.05s linear;
+#submitbtn:hover {
+  cursor: pointer;
+  background-color: #b7e5e5;
+  border: 3px solid #b7e5e5;
+  transition: 0.05s linear;
 }
 
 #form {
-    background-image: url(background/Leaves_kontaktArtboard-1.png);
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  background-image: url(background/Leaves_kontaktArtboard-1.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/*-------------------------- modal ----------------------------------------------------------*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+
+  top: 0;
+  width: 86vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  background-color: #5ba5a4;
+  margin: 7vw;
+  color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #b7e5e5;
+
+  font-family: "Amiko", sans-serif;
+}
+
+/* The Close Button */
+.close {
+  color: #f9f9f9;
+}
+
+.close:hover,
+.close:focus {
+  color: #282828;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* ------------------------------------ kontakt media ----------------------------------------*/
 
-@media only screen and (max-width:1000px) {
-    .gridcon {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-
+@media only screen and (max-width: 1000px) {
+  .gridcon {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-
 @media only screen and (max-width: 600px) {
-    #kontakt .gridcon {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-    }
+  #kontakt .gridcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 
-    .gridcon {
-        margin: 2vw;
-    }
+  .gridcon {
+    margin: 2vw;
+  }
 
-    .griditem {
-        width: 80%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
+  .griditem {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-    .griditem img {}
-
-    .griditem p {
-        width: 100%;
-
-    }
+  .griditem p {
+    width: 100%;
+  }
+}

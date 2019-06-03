@@ -4,12 +4,7 @@ async function HentGentagelser() {
   let footerData = await fetch("footer.html");
   let footer = await footerData.text();
   document.querySelector("footer").innerHTML = footer;
-  init();
-}
-
-function init() {
-  displayMenuer(x); // Call listener function at run time
-  displayKnapper(y);
+  displayMenuer(x);
 }
 
 /* sticky header */
@@ -47,29 +42,4 @@ async function normalmenu() {
   let headerData = await fetch("header.html");
   let header = await headerData.text();
   document.querySelector(".hovedmenu").innerHTML = header;
-}
-
-/* -------------------- knapper forsiden ----------------------- */
-let y = window.matchMedia("(max-width: 700px)");
-y.addListener(displayKnapper); // Attach listener function on state changes
-function displayKnapper(y) {
-  if (y.matches) {
-    document.querySelector("#smallscreen").classList.remove("hide");
-    document.querySelector("#smallscreen1").classList.remove("hide");
-    document.querySelector("#smallscreen2").classList.remove("hide");
-    document.querySelector("#smallscreen3").classList.remove("hide");
-    document.querySelector("#bigscreen").classList.add("hide");
-    document.querySelector("#bigscreen1").classList.add("hide");
-    document.querySelector("#bigscreen2").classList.add("hide");
-    document.querySelector("#bigscreen3").classList.add("hide");
-  } else {
-    document.querySelector("#smallscreen").classList.add("hide");
-    document.querySelector("#smallscreen1").classList.add("hide");
-    document.querySelector("#smallscreen2").classList.add("hide");
-    document.querySelector("#smallscreen3").classList.add("hide");
-    document.querySelector("#bigscreen").classList.remove("hide");
-    document.querySelector("#bigscreen1").classList.remove("hide");
-    document.querySelector("#bigscreen2").classList.remove("hide");
-    document.querySelector("#bigscreen3").classList.remove("hide");
-  }
 }
