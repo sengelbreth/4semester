@@ -1,68 +1,65 @@
 /* ------------------------------- internatoinalt ----------------------------------*/
 
 #int_baggrund {
-    background-image: url(background/Leaves_kontaktArtboard-1.png);
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 5vw;
+  background-image: url(background/Leaves_kontaktArtboard-1.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 5vw;
 }
 
 #int .gridcon {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2vw;
-    justify-content: center;
-    align-items: center;
-    background-color: #76d2d1;
-    color: #f9f9f9;
-    margin: 2vw 7vw 0 7vw;
-    border-radius: 20px;
-
-
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #76d2d1;
+  color: #f9f9f9;
+  margin: 2vw 7vw 0 7vw;
+  border-radius: 20px;
 }
 
 #int .griditem img {
-    width: 30vw;
-    padding: 1vw;
+  width: 30vw;
+  padding: 1vw;
 }
 
 #int .gridcon .griditem {
-    width: 50%;
-    flex-grow: 1;
+  width: 50%;
+  flex-grow: 1;
 }
 
 .griditem p {
-    font-family: "Amiko", sans-serif;
-    padding: 1vw;
+  font-family: "Amiko", sans-serif;
+  padding: 1vw;
 }
 
 .griditem h2 {
-    padding: 1vw;
+  padding: 1vw;
 }
 
 /* ------------------------------ internationalt media ---------------------------------------*/
 
-@media only screen and (max-width: 600px) {
-    #int .gridcon {
-        display: block;
-        margin-left: 0vw;
-        margin-right: 0vw;
-        padding: 0;
-    }
+@media only screen and (max-width: 1000px) {
+  #int .gridcon {
+    display: block;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0;
+  }
 
-    #int .griditem p,
-    #int .griditem h2 {
-        width: 100vw;
-        padding: 1vw;
-    }
-    #int .griditem img {
-        width: 100vw;
-        padding: 0;
-    }
+  #int .griditem p,
+  #int .griditem h2 {
+    width: 100vw;
+    padding: 1vw;
+  }
+  #int .griditem img {
+    width: 100vw;
+    padding: 0;
+  }
 
-    #int .griditem h2 {
-
-        text-align: center;
-    }
+  #int .griditem h2 {
+    text-align: center;
+  }
 }

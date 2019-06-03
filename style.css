@@ -121,30 +121,6 @@ h3 {
   padding-top: 2.6vw;
 }
 
-@media only screen and (max-width: 1000px) {
-  .dropd {
-    position: relative;
-    display: inline-block;
-    padding-top: 2.5vw;
-  }
-  .hovedmenu .link {
-    text-decoration: none;
-    color: #76d2d1;
-    flex-basis: 1;
-    padding: 2.6vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 2.5vw;
-  }
-  .hovedmenu img {
-    width: 17vw;
-    flex-basis: 1;
-    padding: 2vw;
-    padding-right: 5vw;
-    margin-left: 10vw;
-  }
-}
-
 .dropdownc {
   display: none;
   position: absolute;
