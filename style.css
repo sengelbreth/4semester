@@ -1,170 +1,170 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Amiko:400,600,700");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f9f9f9;
-    overflow-x: hidden;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
 }
 
 .button {
-    font-family: "Amiko", sans-serif;
-    border: solid #5ba5a4 2px;
-    color: #5ba5a4;
-    padding: 0.5vw;
-    border-radius: 4px;
-    background-color: transparent;
-    text-decoration: none;
+  font-family: "Amiko", sans-serif;
+  border: solid #5ba5a4 2px;
+  color: #5ba5a4;
+  padding: 0.5vw;
+  border-radius: 4px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .button:hover {
-    color: #76d2d1;
-    border: solid #76d2d1 2px;
-    transition: 0.05s linear;
+  color: #76d2d1;
+  border: solid #76d2d1 2px;
+  transition: 0.05s linear;
 }
 
 p {
-    font-family: "Amiko", sans-serif;
-    line-height: 1.7;
-    font-size: 0.9em;
+  font-family: "Amiko", sans-serif;
+  line-height: 1.7;
+  font-size: 0.9em;
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h3 {
-    font-family: "Amiko", sans-serif;
-    line-height: 1.5;
-    text-align: center;
+  font-family: "Amiko", sans-serif;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .splash {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .splash img {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
+  margin-left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .splash p {
-    position: absolute;
-    margin-left: 10vw;
-    margin-top: -15vw;
-    color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 2em;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: -15vw;
+  color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 600px) {
-    .splash p {
-        position: absolute;
-        margin-left: 15vw;
-        margin-top: -50vw;
-        color: #f9f9f9;
-        font-family: "Montserrat", sans-serif;
-        font-size: 6vw;
-    }
+  .splash p {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: -50vw;
+    color: #f9f9f9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vw;
+  }
 
-    .splash img {
-        height: 600px;
-        width: auto;
-    }
+  .splash img {
+    height: 600px;
+    width: auto;
+  }
 }
 
 /*---------------------- MENU --------------------------------------------*/
 
 .hovedmenu {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #f9f9f9;
-    width: 100vw;
-    z-index: 1;
-    border-bottom: 3px solid #76d2d1;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f9f9f9;
+  width: 100vw;
+  z-index: 1;
+  border-bottom: 3px solid #76d2d1;
 }
 
 .hovedmenu img {
-    width: 10vw;
-    flex-basis: 1;
-    padding: 1.5vw;
-    padding-right: 5vw;
-    margin-left: 10vw;
+  width: 10vw;
+  flex-basis: 1;
+  padding: 1.5vw;
+  padding-right: 5vw;
+  margin-left: 10vw;
 }
 
 .hovedmenu .link {
-    text-decoration: none;
-    color: #76d2d1;
-    flex-basis: 1;
-    padding: 2.6vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
+  text-decoration: none;
+  color: #76d2d1;
+  flex-basis: 1;
+  padding: 2.6vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
 }
 
 .dropd {
-    position: relative;
-    display: inline-block;
-    padding-top: 2.6vw;
+  position: relative;
+  display: inline-block;
+  padding-top: 2.6vw;
 }
 
 @media only screen and (max-width: 1000px) {
-    .dropd {
-        position: relative;
-        display: inline-block;
-        padding-top: 1.8vw;
-    }
+  .dropd {
+    position: relative;
+    display: inline-block;
+    padding-top: 1.8vw;
+  }
 }
 
 .dropdownc {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 2;
 }
 
 .dropdownc a {
-    text-decoration: none;
-    display: block;
-    text-decoration: none;
-    color: #76d2d1;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
-    padding: 1vw;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+  color: #76d2d1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 1vw;
 }
 
 .dropdownc a:hover {
-    background-color: #5ba5a4;
+  background-color: #5ba5a4;
 }
 
 .dropd:hover .dropdownc {
-    display: block;
+  display: block;
 }
 
 .hovedmenu .link:hover {
-    background-color: #5ba5a4;
+  background-color: #5ba5a4;
 }
 
 /* --------------------------------- sticky header -----------------------*/
 
 .fixed-nav {
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 /*---------------------- MENU SLUT --------------------------------------------*/
@@ -172,124 +172,116 @@ h3 {
 /* ------------------------------------ undersider -----------------------------------------------*/
 
 .gridcon {
-    display: flex;
-    justify-content: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 2vw 2vw 2vw 2vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
 
-
-
-
 .gridcon_campinfo .griditem {
-    background-color: #76d2d1;
-    color: #f9f9f9;
-    margin: 2vw 7vw 0 7vw;
-    border-radius: 20px;
-    padding: 2vw;
+  background-color: #76d2d1;
+  color: #f9f9f9;
+  margin: 2vw 7vw 0 7vw;
+  border-radius: 20px;
+  padding: 2vw;
 }
 
 .gridcon_campinfo .griditem h3 {
-    text-align: left;
-}
-
+  text-align: left;
 }
 
 .underimg {
-    width: 25vw;
+  width: 25vw;
 }
 
 #fritid .underimg {
-    width: 40vw;
+  width: 40vw;
 }
 
 ul,
 li {
-    list-style: none;
-    line-height: 3;
-    font-family: "Amiko", sans-serif;
-    font-size: 0.9em;
+  list-style: none;
+  line-height: 3;
+  font-family: "Amiko", sans-serif;
+  font-size: 0.9em;
 }
 
 .camp_griditem_title {
-    color: #f9f9f9;
-    position: inherit;
-    border-radius: 20px 20px 0px 0px;
-    padding: 2vw 0vw 2vw 0vw;
-    width: 100%;
-    background-color: #76d2d1;
-    background-image: url(background/Leaves.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+  color: #f9f9f9;
+  position: inherit;
+  border-radius: 20px 20px 0px 0px;
+  padding: 2vw 0vw 2vw 0vw;
+  width: 100%;
+  background-color: #76d2d1;
+  background-image: url(background/Leaves.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-
 #camp_baggrund {
-    width: 100vw;
-    background-image: url(background/Leaves_kontaktArtboard-1.png);
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100vw;
+  background-image: url(background/Leaves_kontaktArtboard-1.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .prisliste {
-    padding-top: 2vw;
+  padding-top: 2vw;
 }
 
 #camp .prisliste .griditem,
 #uddannelse .prisliste .griditem {
-    width: 50%;
-    border-radius: 20px 20px 0px 0px;
-    margin: 2vw;
-    border: 2px solid #cccccc;
-    padding-bottom: 2vw;
-    background-color: #f9f9f9;
+  width: 50%;
+  border-radius: 20px 20px 0px 0px;
+  margin: 2vw;
+  border: 2px solid #cccccc;
+  padding-bottom: 2vw;
+  background-color: #f9f9f9;
 }
 
 #camp .prisliste .griditem p,
 #uddannelse .prisliste .griditem p {
-    padding: 2vw 2vw 0 2vw;
+  padding: 2vw 2vw 0 2vw;
 }
 
 #camp .gridcon {
-    padding: 0;
+  padding: 0;
 }
 
 #camp .title,
 #uddannelse .title {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    color: #66cccc;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #66cccc;
 }
 
 /* -------------------------------- undersider media ------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-    .underimg {
-        width: 100vw;
-    }
-    .gridcon {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto auto;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
+  .underimg {
+    width: 100vw;
+  }
+  .gridcon {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 
-    }
-
-    #camp .prisliste .griditem {
-        width: 90%;
-        border-radius: 20px 20px 0px 0px;
-        margin: 2vw;
-        border: 2px solid #cccccc;
-        padding-bottom: 2vw;
-        background-color: #f9f9f9;
-    }
-
+  #camp .prisliste .griditem {
+    width: 90%;
+    border-radius: 20px 20px 0px 0px;
+    margin: 2vw;
+    border: 2px solid #cccccc;
+    padding-bottom: 2vw;
+    background-color: #f9f9f9;
+  }
 }
 
 /* ------------------------------------ undersider slut -----------------------------------------------*/
@@ -297,39 +289,38 @@ li {
 /* ------------------------------------ footer -----------------------------------------------*/
 
 .gridcon_footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 2vw 5vw 2vw 5vw;
-    color: #f9f9f9;
-    background-color: #282828;
-   
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2vw 5vw 2vw 5vw;
+  color: #f9f9f9;
+  background-color: #282828;
 }
 .girditem {
-    margin-left: 7vw;
+  margin-left: 7vw;
 }
 
 .gridcon_icons {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 7vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 7vw;
 }
 
 .footer_icons {
-    width: 4vw;
+  width: 4vw;
 }
 
 @media only screen and (max-width: 600px) {
-    .gridcon_footer {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: auto auto;
-        margin-left: 0vw;
+  .gridcon_footer {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+    margin-left: 0vw;
 
-        padding: 5vw;
-    }
-    .footer_icons {
-        width: 7vw;
-    }
+    padding: 5vw;
+  }
+  .footer_icons {
+    width: 7vw;
+  }
 }
 
 /* ------------------------------------ footer slut -----------------------------------------------*/
@@ -341,65 +332,65 @@ li {
  */
 
 #menu a {
-    text-decoration: none;
-    color: #76d2d1;
-    display: block;
-    text-align: center;
-    font-size: 4vw;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #76d2d1;
+  display: block;
+  text-align: center;
+  font-size: 4vw;
+  transition: color 0.3s ease;
 }
 
 #menu .link {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #menu .dropd {
-    position: relative;
-    display: inline-block;
-    padding-top: 2.6vw;
-    margin-left: 37vw;
+  position: relative;
+  display: inline-block;
+  padding-top: 2.6vw;
+  margin-left: 37vw;
 }
 
 #menu .dropdownc {
-    background-color: #f9f9f9;
-    z-index: 2;
-    width: 110vw;
-    margin-left: -40vw;
+  background-color: #f9f9f9;
+  z-index: 2;
+  width: 110vw;
+  margin-left: -40vw;
 }
 
 #menu img {
-    width: 40vw;
+  width: 40vw;
 
-    padding: 1.5vw;
+  padding: 1.5vw;
 }
 
 #menuToggle {
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
 
-    z-index: 1;
+  z-index: 1;
 
-    -webkit-user-select: none;
-    user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #menuToggle input {
-    display: block;
-    width: 100vw;
+  display: block;
+  width: 100vw;
 
-    position: absolute;
-    top: -7px;
-    left: -5px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
-    -webkit-touch-callout: none;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
 }
 
 /*
@@ -407,29 +398,29 @@ li {
       */
 
 #menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    z-index: 3;
-    background: #e9e9e9;
-    border-radius: 3px;
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 3;
+  background: #e9e9e9;
+  border-radius: 3px;
 
-    z-index: 1;
+  z-index: 1;
 
-    transform-origin: 4px 0px;
+  transform-origin: 4px 0px;
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 #menuToggle span:first-child {
-    transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 #menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
 }
 
 /* 
@@ -438,9 +429,9 @@ li {
       */
 
 #menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #e9e9e9e9;
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #e9e9e9e9;
 }
 
 /*
@@ -448,8 +439,8 @@ li {
       */
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
@@ -457,7 +448,7 @@ li {
       */
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
@@ -466,20 +457,20 @@ li {
       */
 
 #menu {
-    position: absolute;
-    width: 100vw;
-    margin: -100px 0 0 -50px;
+  position: absolute;
+  width: 100vw;
+  margin: -100px 0 0 -50px;
 
-    padding-top: 125px;
+  padding-top: 125px;
 
-    background: #f9f9f9;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+  background: #f9f9f9;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 /*
@@ -487,11 +478,11 @@ li {
       */
 
 #menuToggle input:checked ~ div {
-    transform: none;
+  transform: none;
 }
 
 /* ------------------------knapper ---------------------------- */
 
 .hide {
-    display: none;
+  display: none;
 }
