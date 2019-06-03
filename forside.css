@@ -1,117 +1,109 @@
 /*---------------------- FORSIDE ------------------------------------*/
 
 #forside section {
-    width: 100vw;
+  width: 100vw;
 }
-
-
-
 
 .gridcon,
 .gridcon2 {
-    line-height: 1.7;
-    font-size: 0.9em;
-
+  line-height: 1.7;
+  font-size: 0.9em;
 }
 
 #forside .gridcon {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    padding: 2vw;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  padding: 2vw;
 }
 
 .gridcon .griditem {
-    width: 25%;
-    margin: 1vw;
-    text-align: center;
+  width: 25%;
+  margin: 1vw;
+  text-align: center;
 }
 
 #forside .gridcon2 {
-    background-color: #76d2d1;
-    color: #f9f9f9;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    border-radius: 20px;
-    padding: 2vw;
+  background-color: #76d2d1;
+  color: #f9f9f9;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  border-radius: 20px;
+  padding: 2vw;
 }
 
 .gridcon2 .griditem {
-    padding: 3vw;
-
+  padding: 3vw;
 }
 
 .gridcon2 .griditem img {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
 
-
-
 #forside .icons .griditem img {
-    width: 10vw;
-    padding: 1vw;
+  width: 10vw;
+  padding: 1vw;
 }
 
 #forside .griditem img {
-    width: 35vw;
+  width: 35vw;
 }
 
 #video {
-    text-align: center;
-    background-color: #f9f9f9;
-    background-image: url(background/Untitled-1Artboard-1.png);
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    margin: 2vw 0 0 0;
-
+  text-align: center;
+  background-color: #f9f9f9;
+  background-image: url(background/Untitled-1Artboard-1.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin: 2vw 0 0 0;
 }
 
 #video h1 {
-    color: #76d2d1;
+  color: #76d2d1;
 }
 
 iframe {
-    margin: 1vw 10vw 2vw 10vw;
-    width: 55vw;
-    height: 52.5vh;
+  margin: 1vw 10vw 2vw 10vw;
+  width: 55vw;
+  height: 52.5vh;
 }
 
 #kontakt_info {
-    text-align: center;
-    padding: 5vw 0 5vw 0;
-    color: #f9f9f9;
+  text-align: center;
+  padding: 5vw 0 5vw 0;
+  color: #f9f9f9;
 }
 
 .kontakt_button {
-    padding: 3vw;
+  padding: 3vw;
 }
 
 .kontakt_link {
-    background-color: #76d2d1;
+  background-color: #76d2d1;
 
-    margin: 10px 45vw 10px 45vw;
-    padding: 1vw;
-    border-radius: 10px;
-    text-align: center;
-    width: 10vw;
+  margin: 10px 45vw 10px 45vw;
+  padding: 1vw;
+  border-radius: 10px;
+  text-align: center;
+  width: 10vw;
 }
 
 .kontakt_link a {
-    text-decoration: none;
-    color: #f9f9f9;
-    width: 10vw;
-    font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #f9f9f9;
+  width: 10vw;
+  font-family: "Montserrat", sans-serif;
 }
 
 .kontakt_link:hover {
-    background-color: #b7e5e5;
-    transition: 0.05s linear;
+  background-color: #b7e5e5;
+  transition: 0.05s linear;
 }
 
 /*---------------------- FORSIDE SLUT ------------------------------------*/
@@ -119,70 +111,87 @@ iframe {
 /* --------------------------------------- forside media ----------------------------------------- */
 
 @media only screen and (max-width: 600px) {
-    #forside section {
-        width: 100vw;
-    }
-    #forside .one {
-        background-image: url("background/Background_Idea.png");
-        padding: 0;
-        margin: 0;
-    }
+  #forside section {
+    width: 100vw;
+  }
+  #forside .one {
+    background-image: url("background/Background_Idea.png");
+    padding: 0;
+    margin: 0;
+  }
 
-    #forside .gridcon {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #f9f9f9;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #forside .gridcon .griditem {
-        width: 90vw;
-    }
+  #forside .gridcon {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #forside .gridcon .griditem {
+    width: 90vw;
+  }
 
-    #forside .gridcon .griditem h3 {
-        text-align: center;
-    }
+  #forside .gridcon .griditem h3 {
+    text-align: center;
+  }
 
-    #forside .gridcon .griditem p {
-        text-align: center;
-    }
+  #forside .gridcon .griditem p {
+    text-align: center;
+  }
 
-    #forside .gridcon .griditem img {
-        width: 40vw;
-        height: auto;
-    }
+  #forside .gridcon .griditem img {
+    width: 40vw;
+    height: auto;
+  }
 
-    #forside .gridcon2 .griditem img {
-        width: 100vw;
-        position: relative;
-        margin: -5vw;
-        padding: 0;
-    }
+  #forside .gridcon2 .griditem img {
+    width: 100vw;
+    position: relative;
+    margin: -5vw;
+    padding: 0;
+  }
 
-    #forside .gridcon2 {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        flex-direction: column-reverse;
-        border-radius: 0;
-    }
+  #forside .gridcon2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column-reverse;
+    border-radius: 0;
+  }
 
+  .gridcon2 p,
+  .gridcon2 h1 {
+    margin: 3vw;
+  }
 
-    .gridcon2 p,
-    .gridcon2 h1 {
-        margin: 3vw;
-    }
+  iframe {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 0;
+    width: 90vw;
+    height: 20vh;
+  }
 
+  #video {
+    height: 400px;
+  }
+}
 
-    iframe {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        padding: 0;
-        width: 90vw;
-        height: 20vh;
-    }
+@media only screen and (max-width: 1000px) {
+  #forside .gridcon {
+    display: flex;
+    flex-wrap: wrap;
 
-    #video {
-        height: 400px;
-    }
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #forside .gridcon .griditem {
+    width: 45vw;
+  }
+
+  #forside .gridcon .griditem img {
+    width: 30vw;
+
+    height: auto;
+  }
 }

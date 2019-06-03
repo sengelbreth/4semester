@@ -5,7 +5,7 @@ function init() {
 }
 
 /* -------------------- knapper forsiden ----------------------- */
-let y = window.matchMedia("(max-width: 700px)");
+let y = window.matchMedia("(max-width: 1000px)");
 y.addListener(displayKnapper); // Attach listener function on state changes
 function displayKnapper(y) {
   if (y.matches) {
