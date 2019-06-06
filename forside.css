@@ -111,6 +111,25 @@ iframe {
 
 /* --------------------------------------- forside media ----------------------------------------- */
 
+@media only screen and (max-width: 1000px) {
+  #forside .gridcon {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #forside .gridcon .griditem {
+    width: 45vw;
+  }
+
+  #forside .gridcon .griditem img {
+    width: 30vw;
+
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #forside section {
     width: 100vw;
@@ -176,24 +195,5 @@ iframe {
 
   #video {
     height: 400px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  #forside .gridcon {
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-left: 0;
-    margin-right: 0;
-  }
-  #forside .gridcon .griditem {
-    width: 45vw;
-  }
-
-  #forside .gridcon .griditem img {
-    width: 30vw;
-
-    height: auto;
   }
 }
